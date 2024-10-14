@@ -72,16 +72,16 @@ class _AccountPageState extends State<AccountPage> {
                         offset: const Offset(0, 3),
                       ),
                     ]),
-                child: Row(
+                child: const Row(
                   children: [
                     CircleAvatar(
                       radius: 30,
                       backgroundImage: AssetImage('assets/user.webp'),
                     ),
-                    const SizedBox(width: 16.0),
+                    SizedBox(width: 16.0),
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           'Luis Santiago',
                           style: TextStyle(
@@ -116,9 +116,9 @@ class _AccountPageState extends State<AccountPage> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           'My Favorites',
                           style: TextStyle(

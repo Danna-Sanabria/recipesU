@@ -18,10 +18,10 @@ class FeedPage extends StatefulWidget {
 class _HomePageState extends State<FeedPage> {
   int index = 0;
   final screens = [
-    HomePage(),
+    const HomePage(),
     FavoriteRecipesPage(),
     ListPage(),
-    SettingPage()
+    const SettingPage()
   ];
 
   @override

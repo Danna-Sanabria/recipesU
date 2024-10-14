@@ -47,11 +47,13 @@ class FavoriteRecipesPage extends StatelessWidget {
     },
   ];
 
+  const FavoriteRecipesPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Recetas Favoritas'),
+        title: const Text('Recetas Favoritas'),
       ),
       body: ListView.builder(
         itemCount: recipes.length,
