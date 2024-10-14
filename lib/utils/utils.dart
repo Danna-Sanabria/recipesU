@@ -11,6 +11,7 @@ extension ColorExtension on String {
       return Color(int.parse('0x$hexColor'));
     }
   }
+  
 }
 
 extension IconExtension on String {
